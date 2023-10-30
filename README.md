@@ -33,7 +33,7 @@ The highly capable XGBoost Regressor was our model of choice. We intricately tun
 ### Streamlined Training: 
 A Stored Procedure (SPROC) was implemented to optimize the model training process.
 
-### Testing and Foundation: 
+### Testing: 
 Rigorous testing over a three-month dataset formed the strong foundation upon which our evaluation is built.
 
 ### Sales Forecasting: 
