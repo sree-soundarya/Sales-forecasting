@@ -15,8 +15,42 @@ We cleaned up the data, got it into a nice Pandas DataFrame, and organized it ar
 
 We decided to use XGBoost since it's great for problems like sales forecasting. We spent some time tuning it to fit our data just right - tweaking things like the learning rate and number of estimators.
 
+#### Actual vs Time Series Forecasting Predicted Line Chart: The reality check! Compare what we expected with what actually happened.
+
+<img src = "images/actual_vs_predicted.png" >
+
 To streamline training, we set up a Stored Procedure in Snowflake to re-train the model efficiently.
 
-Then came the fun part - testing the model on 3 months of data to see how well it forecasted sales. The results were looking good!
+Then came the fun part - testing the model on 3 months of data to see how well it forecasted sales. The results were looking good! 
+
+#### Forecast : The crystal ball of charts! Check out where the sales ship is sailing. 
+
+<img src = "images/sales_forecast.png" >
 
 Now our XGBoost model is ready to start forecasting sales for the next 6 months. This will give us crucial insights to make better decisions.
+
+Alright, buckle up! 🚀 Here's a sneak peek into our sales voyage with some awesome charts:
+
+#### Overall Sales : The KPI chart unveils insights into the sales performance. 
+
+<img src = "images/overall_sales.png" width = 400 height = 300>
+
+#### Yearly Sales Growth  : This chart spills the beans on how sales have grown, step by step.
+
+<img src = "images/sales_growth.png" height = 400>
+
+#### Tender Type : Where's the money coming from? This pie chart gives breakdown of the revenue sources.
+
+<img src = "images/tender_type.png" width = 500 height = 400>
+
+
+#### Revenue Distribution by customer age group: Find out the revenue break down by age groups with this chart.
+
+<img src = "images/age_group.png" height = 500>
+
+#### Geographic Sales Breakdown by State: Ready for a state-by-state adventure? This chart maps out the sales journey across different regions.
+
+<img src = "images/map.png" width = 700>
+
+
+
