@@ -52,5 +52,8 @@ Alright, buckle up! 🚀 Here's a sneak peek into our sales voyage with some awe
 
 <img src = "images/map.png" width = 700>
 
+## Guide to use .tml files
+For step-by-step instructions on how to import .tml files into your ThoughtSpot cluster please refer [How to use TML files](https://docs.thoughtspot.com/cloud/latest/scriptability#_how_to_use_tml_files)
+
 
 
